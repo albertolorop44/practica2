@@ -3,29 +3,80 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tomates en Extremadura</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Agricultura en Extremadura</title>
+    <link rel="stylesheet" href="estilo.css">
 </head>
 <body>
     <header>
         <h1>Agricultura en Extremadura</h1>
-        <nav>
-            <ul>
-                <li><a href="index.html">Inicio</a></li>
-                <li><a href="tomates.html">Tomates</a></li>
-                <li><a href="maiz.html">Maíz</a></li>
-                <li><a href="arroz.html">Arroz</a></li>
-            </ul>
-        </nav>
     </header>
-    <main>
-        <h2>Sector principal de la zona</h2>
-        <p>La agricultura, perteneciente al sector primario es la principal fuente de ingresos de la zona</p>
-        <p> Destacan entre otros cultivos especialmente los tomates junto con el maiz, arroz y las aceitunas</p>
-        <img src="tractor1.jpg" alt="JOHN DEER" width="500">
-    </main>
+
+    <div class="container">
+        <h2>Importancia de la Agricultura en Extremadura</h2>
+        <p>La agricultura en Extremadura es un pilar fundamental de la economía regional. Su clima y suelos fértiles favorecen el cultivo de una gran variedad de productos, entre los que destacan los tomates, el maíz y el arroz.</p>
+        <p>Impacto económico: representa aproximadamente el 8% del PIB regional, una cifra muy superior a la media. Genera empleo para más del 20% de la población activa.</p>
+        <p>Seguramente se esté preguntando el por qué de una web dedicada a ello.</p>
+        <p>Tengo la suerte de ser parte de una familia donde todos somos agricultores, siguiendo con la tradicción y el oficio que empezaron todos nuestros antepasados.</p>
+        <p>En concreto somos de Miajadas, un pueblo situado en el centro de Extremadura y perteneciente a la provincia de Cáceres. Además dicho pueblo es la Capital Europea Del Tomate.</p>
+        <p>Aunque actualmente me encuentre estudiando en Madrid, nunca dejará de ser una parte de mi el campo ya que es donde me he criado y crecido.</p>
+        <p>Es por ello, que al menos dedicar este proyecto a que conozcais un poco más a cerca de los principales cultivos y un poco de nuestro trabajo.</p>
+
+ 
+
+        <img src="tractor1.jpg" width="500">
+        <p>Este soy yo conduciendo uno de nuestros tractores</p>
+
+   
+
+        <h3>Principales Cultivos</h3>
+        <p>Para que conozcais algo más sobre nuestro trabajo, quiero que veais los tres cultivos que mayor explotación tenemos como son los tomates, el arroz y el maiz.</p>
+        <p>Destacar que estos no son los únicos ya que en la zona también es muy popular los olivos, el trigo o el girasol entre otros.</p>
+        <p>Estos son los datos de la última campaña, la 2024. En la tabla podemos ver el cultivo, las hectareas que hemos sembrado y la producción total en toneladas</p>
+        <table>
+            <tr>
+                <th>Producto</th>
+                <th>Hectáreas cultivadas</th>
+                <th>Producción anual (Toneladas)</th>
+            </tr>
+            <tr>
+                <td>Tomates</td>
+                <td>50</td>
+                <td>8.000</td>
+            </tr>
+            <tr>
+                <td>Arroz</td>
+                <td>80</td>
+                <td>760</td>
+            </tr>
+            <tr>
+                <td>Maíz</td>
+                <td>60</td>
+                <td>1.260</td>
+            </tr>
+        </table>
+
+        <p>Aquí te dejo el enlace a cada cultivo para verlo más en profundidad:</p>
+        <nav>
+            <a href="tomate.html">Tomates</a>
+            <a href="arroz.html">Maíz</a>
+            <a href="maiz.html">Arroz</a>
+        </nav>
+
+        <h3>Contacto</h3>
+        <p>Si quieres más información sobre la agricultura en mi zona, puedes dejarmela por aquí y te responderé encantado.</p>
+        <form>
+            <label>Nombre:</label>
+            <input type="text" required>
+            <label>Correo Electrónico:</label>
+            <input type="email" required>
+            <label>Mensaje:</label>
+            <textarea rows="4" required></textarea>
+            <input type="submit" value="Enviar">
+        </form>
+    </div>
     <footer>
-        <p>&copy; 2025 Agricultura en Extremadura. Todos los derechos reservados.</p>
+        <p>© 2025 Agricultura en Extremadura</p>
     </footer>
 </body>
 </html>
+
